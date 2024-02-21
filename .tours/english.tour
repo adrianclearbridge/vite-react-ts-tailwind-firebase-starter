@@ -1,0 +1,36 @@
+{
+  "$schema": "https://aka.ms/codetour-schema",
+  "title": "Description of this repository",
+  "steps": [
+    {
+      "file": "vite.config.ts",
+      "description": "Plugin used when using react-refresh with vite.",
+      "line": 6
+    },
+    {
+      "file": "tailwind.config.js",
+      "description": "When tailwindCSS is used with a JIT compiler, it is convenient to use class names that contain dynamic values.",
+      "line": 3
+    },
+    {
+      "file": "index.html",
+      "description": "Since esbuild is used for development in the local environment, you can specify the tsx file directly.",
+      "line": 11
+    },
+    {
+      "file": "src/pages/Diagram.tsx",
+      "description": "The class name here, such as `min-w-[280px]`, is a feature unique to the JIT compiler that can dynamically determine the style.",
+      "line": 8
+    },
+    {
+      "file": "src/components/Base/ContentEditable.tsx",
+      "description": "It is a contenteditable component. \nhttps://developer.mozilla.org/ja/docs/Web/HTML/Global_attributes/contenteditable",
+      "line": 26
+    },
+    {
+      "file": "src/components/Base/ContentEditable.tsx",
+      "description": "It is very convenient to be able to specify a focus pseudo selector.",
+      "line": 30
+    }
+  ]
+}
